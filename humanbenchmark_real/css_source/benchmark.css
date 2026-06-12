@@ -1,0 +1,23 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(200, 200, 200);
+}
+.megatitle{
+    background-color: #0a67ca;
+    height: 35vh;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: clamp(0.6rem,  0.6rem+7vh, 0.9rem);
+}
+.grid{
+    display:grid;
+    grid-template-columns: 5vw 5vw 5vw;
+    justify-content: center;
+    align-items: center;
+}
+.grid button{
+    width: 5vw;
+    height: 4vh
+}

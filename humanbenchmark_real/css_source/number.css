@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(200, 200, 200);
+}
+h1{
+    text-align: center;
+}
+.testbox{
+    background-color: #0a67fa;
+    width:100%;
+    height:40vh;
+    font-size:25px;
+    margin-bottom: 2vh;
+}
+#match{
+    text-align: center;
+    font-size: 30px;
+}
+#input{
+    position: relative;
+    width:125px;
+    height:35px;
+    left:45%;
+    visibility:hidden;
+}
+#submit{
+    position: relative;
+    width:100px;
+    height:40px;
+    left:45%;
+    visibility:hidden;
+}
+#begin{
+    position:relative;
+    visibility: visible;
+    width:5vw;
+    height:3vh;
+    top:calc(50% - 1.5vw);
+    left:calc(50% - 2.5vw)
+}
+#graf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:900px;
+    height:600px
+}
+canvas {
+    display: block;
+    margin: auto;
+}

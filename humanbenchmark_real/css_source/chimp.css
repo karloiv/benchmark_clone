@@ -1,0 +1,54 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(200, 200, 200);
+}
+.testbox{
+    background-color: #0a67ca;
+    height: 50vh;
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 3.5vw 3.5vw 3.5vw 3.5vw 3.5vw 3.5vw 3.5vw 3.5vw;
+    font-size: clamp(0.6rem,  0.6rem+7vh, 0.9rem);
+}
+.chimp{
+    width:75px;
+    height:75px;
+    border-radius: 15px;
+    visibility: hidden;
+}
+#begin{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top:25%;
+}
+#start{
+    width:4vw;
+    height:2vw;
+}
+#message{
+    position: absolute;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    top:17%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+#graf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:900px;
+    height:600px
+}
+canvas {
+    display: block;
+    margin: auto;
+}

@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(200, 200, 200);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#react{
+    background-color: #0a67fa;
+    width:100%;
+    height:30vh;
+    font-size:25px;
+    margin-bottom: 2vh;
+}
+h1{
+    text-align: center;
+}
+.goback{
+    display: block;
+    margin: 0 auto;
+    width:5vw;
+    height:3vh;
+}
+#graf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:900px;
+    height:600px
+}
+
+canvas {
+    display: block;
+    margin: auto;
+}
