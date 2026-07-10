@@ -33,7 +33,7 @@ body{
     top:calc(30% - 37.5px)
 }
 #text{
-    position: relative;
+    position: absolute;
     left:41%;
     font-size: 25px;;
     top:calc(20% - 37.5px)
