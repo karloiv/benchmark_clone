@@ -13,11 +13,11 @@ body{
 }
 .grid{
     display:grid;
-    grid-template-columns: 5vw 5vw 5vw;
+    grid-template-columns: 130px 130px 130px;
     justify-content: center;
     align-items: center;
 }
 .grid button{
-    width: 100px;
+    width: 125px;
     height: 40px
 }
