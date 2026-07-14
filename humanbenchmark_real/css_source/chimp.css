@@ -9,7 +9,7 @@ body{
     display: grid;
     justify-content: center;
     align-items: center;
-    grid-template-columns: 4px 4px 4px 4px 4px 4px 4px 4px;
+    grid-template-columns: 85px 85px 85px 85px 85px 85px 85px 85px;
     font-size: clamp(0.6rem,  0.6rem+7vh, 0.9rem);
 }
 .chimp{
